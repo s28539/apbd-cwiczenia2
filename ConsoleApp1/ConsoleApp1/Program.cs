@@ -3,3 +3,14 @@ Console.WriteLine("Modyfikacja 1");
 Console.WriteLine("Modyfikacja 2");
 Console.WriteLine("Modyfikacja 3");
 Console.WriteLine("Hello, World!");
+
+static double GetAverage(int[] numbers)
+{
+    double sum = 0;
+    for (int i = 0; i < numbers.Length; i++)
+    {
+        sum += numbers[i];
+    }
+
+    return sum / numbers.Length;
+}
